@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "Brianf97",
+        "MONGO_PASSWORD": "Star181son275",
+        "MONGO_DB": "barber-app"
+    }
+}

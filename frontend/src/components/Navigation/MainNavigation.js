@@ -10,7 +10,7 @@ const mainNavigation = props => (
       return (
         <header className="main-navigation">
           <div className="main-navigation__logo">
-            <h1>EasyEvent</h1>
+            <h1>Fade List</h1>
           </div>
           <nav className="main-navigation__items">
             <ul>
@@ -20,7 +20,7 @@ const mainNavigation = props => (
                 </li>
               )}
               <li>
-                <NavLink to="/events">Events</NavLink>
+                <NavLink to="/events">Listings</NavLink>
               </li>
               {context.token && (
                 <React.Fragment>

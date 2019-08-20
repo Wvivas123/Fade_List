@@ -231,7 +231,7 @@ class EventsPage extends Component {
           >
             <form>
               <div className="form-control">
-                <label htmlFor="title">Title</label>
+                <label htmlFor="title">Stylist Name</label>
                 <input type="text" id="title" ref={this.titleElRef} />
               </div>
               <div className="form-control">
@@ -243,7 +243,7 @@ class EventsPage extends Component {
                 <input type="datetime-local" id="date" ref={this.dateElRef} />
               </div>
               <div className="form-control">
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description">Description of Services</label>
                 <textarea
                   id="description"
                   rows="4"
@@ -272,9 +272,9 @@ class EventsPage extends Component {
         )}
         {this.context.token && (
           <div className="events-control">
-            <p>Share your own Events!</p>
+            <p>Share your avalible times!</p>
             <button className="btn" onClick={this.startCreateEventHandler}>
-              Create Event
+              Create Listing
             </button>
           </div>
         )}

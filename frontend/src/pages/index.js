@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
 import './index.css';
 
+import Slideshow from '../components/Carousel/Carousel';
 
 
 class IndexPage extends Component {
   render() {
     return(
     <React.Fragment>
-   <div class="cito">
    
-   <div class="top">
-
-   
-    <h1 class="Logo">Fade List</h1>;
-    <h1>Fade List is a market place for Hair stylist to post thier open time spots to maxamize profits</h1>
-    <p>Fade List is perfect for people looking to maxamize their profits by listing thier open time slots at a discount.</p>
+  
+   <div class="Logo">
+   <h1 > Welcome to Fade List</h1>
     </div>
-
+    
+    <div class="about">
+    <p>Fade List is perfect for people looking to maxamize their profits by listing thier open time slots at a discount. Fade list takes the community of craigslist and bring it to the world of hair stylist.</p>
+    
     </div>
-   
+    <div>
+      
+    </div>
+    
+      <Slideshow></Slideshow>
     </React.Fragment>
     )  
 }

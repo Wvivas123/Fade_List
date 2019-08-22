@@ -1,0 +1,24 @@
+.Logo{
+    display: inline;
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgb(8, 0, 0);   
+
+
+}
+.top{
+	background-color: aliceblue;
+}
+
+
+.cito{
+	background-image: url("https://toppossystem.com/wp-content/uploads/2018/03/Best-POS-Systems-For-Barbershops.png")
+}
+
+body{
+	background-color: antiquewhite;
+}
+
+
+ 

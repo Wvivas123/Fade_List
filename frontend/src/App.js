@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import AuthPage from './pages/Auth';
+import IndexPage from './pages/index';
 import BookingsPage from './pages/Bookings';
 import EventsPage from './pages/Events';
 import MainNavigation from './components/Navigation/MainNavigation';
@@ -38,6 +39,8 @@ class App extends Component {
             <MainNavigation />
             <main className="main-content">
               <Switch>
+              <Route path="/index" component={IndexPage} />
+               
                 {this.state.token && <Redirect from="/" to="/events" exact />}
                 {this.state.token && (
                   <Redirect from="/auth" to="/events" exact />
@@ -50,6 +53,8 @@ class App extends Component {
                   <Route path="/bookings" component={BookingsPage} />
                 )}
                 {!this.state.token && <Redirect to="/auth" exact />}
+                
+
               </Switch>
             </main>
           </AuthContext.Provider>

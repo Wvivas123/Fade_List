@@ -9,7 +9,7 @@ class IndexPage extends Component {
     return(
     <React.Fragment>
    
-  
+  <div >
    <div class="Logo">
    <h1 > Welcome to Fade List</h1>
     </div>
@@ -23,6 +23,7 @@ class IndexPage extends Component {
     </div>
     
       <Slideshow></Slideshow>
+      </div>
     </React.Fragment>
     )  
 }

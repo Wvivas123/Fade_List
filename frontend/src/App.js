@@ -37,6 +37,7 @@ class App extends Component {
             }}
           >
             <MainNavigation />
+            <div class="bottom">
             <main className="main-content">
               <Switch>
               <Route path="/index" component={IndexPage} />
@@ -56,7 +57,10 @@ class App extends Component {
                 
 
               </Switch>
+              
             </main>
+            </div>
+           
           </AuthContext.Provider>
         </React.Fragment>
       </BrowserRouter>

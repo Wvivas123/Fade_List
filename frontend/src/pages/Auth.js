@@ -109,6 +109,7 @@ class AuthPage extends Component {
           </button>
         </div>
       </form>
+     
     );
   }
 }

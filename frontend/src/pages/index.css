@@ -1,24 +1,61 @@
 .Logo{
-    display: inline;
-	position: relative;
-	font: 100px Helvetica, Sans-Serif;
-	letter-spacing: -5px;
-	color: rgb(8, 0, 0);   
-
+	width: 200px;
+	  height: 200px;
+	  text-align: center;
+      background: red;
+	  border-radius: 50%;
+	  margin-left: 40%;
+	  margin-top: 50px;
+	 
 
 }
-.top{
-	background-color: aliceblue;
+
+h1{
+	margin-top: 0px;
+    margin-bottom: 0px;
+	font-size: 40px;
+  color: #1b1a1a;
+
+	text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+
 }
 
 
-.cito{
-	background-image: url("https://toppossystem.com/wp-content/uploads/2018/03/Best-POS-Systems-For-Barbershops.png")
+.about{
+	font-family: "Courier New", Courier, monospace;
+	
+	background-color: azure;
+	height: 5%;
+	padding: 5% ;
+	margin-bottom: 10px;
+	border:20px solid #2eb9ce;
+	border-width:20px;
+	border-style:solid;
+	border-color:#2eb9ce;
+	font-size: 20px;
+	border-radius:50%;
+	
 }
+
+
+
 
 body{
 	background-color: antiquewhite;
 }
-
-
- 

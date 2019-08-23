@@ -272,7 +272,7 @@ class EventsPage extends Component {
         )}
         {this.context.token && (
           <div className="events-control">
-            <p>Share your avalible times!</p>
+            <p>Share your available times!</p>
             <button className="btn" onClick={this.startCreateEventHandler}>
               Create Listing
             </button>

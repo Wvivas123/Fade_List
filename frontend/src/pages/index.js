@@ -11,11 +11,15 @@ class IndexPage extends Component {
    
   <div >
    <div class="Logo">
-   <h1 > Welcome to Fade List</h1>
+   <h1>welcome to</h1>
+   <h1>Fade</h1> 
+	
+	<h1>List</h1>
+	
     </div>
     
     <div class="about">
-    <p>Fade List is perfect for people looking to maxamize their profits by listing thier open time slots at a discount. Fade list takes the community of craigslist and bring it to the world of hair stylist.</p>
+    <p>Fade List is perfect for people looking to maxamize their profits by listing thier open time slots at a discount. Fade list takes the community of craigslist and bring it to the world of hair stylist. Fade List allows you to make the most of your time behind the chair, as well as, gives consumers a chance to get a fresh fade at a discount. </p>
     
     </div>
     <div>
